@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+
+}
+.container{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px black;
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+}
+.traffic{
+    width: 220px;
+    height: 660px;
+    border: 30px solid black;
+    border-radius: 30px;
+    position: relative;
+
+}
+.light{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 20px solid black
+}
+.red{
+    background-color: red;
+
+}
+.yellow{
+    background-color: yellow;
+
+}
+.green{
+    background-color: black;
+}
+.number{
+    font-size: 68px;
+    font-weight: 900;
+    margin-left:40px;
+}
+.number1{
+    font-size: 68px;
+    font-weight: 900;
+    margin-left:40px;
+}
+.red1{
+    background-color:black;
+
+}
+.yellow1{
+    background-color: rgb(255, 255, 255);
+
+}
+.green1{
+    background-color:green;
+}
+.left-arrow{
+    position: absolute;
+    bottom: 50px;
+    left: -300px;
+    font-size: 15rem;
+    font-weight: 900;
+}
+.traffic1{
+    width: 220px;
+    height: 660px;
+    border: 30px solid black;
+    border-radius: 30px;
+    position: relative;
+}

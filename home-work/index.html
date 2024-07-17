@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <header class="header">
+        <h2>Logo</h2>
+                <ul>
+                     <li><a href="perehod.html">Create Service</a></li>
+                     
+                 <li><a href="index.html">List Service</a></li>
+                 
+            </ul>
+    <button>login</button>
+ </header>
+
+
+
+ <div class="results">
+    <div class="service">
+        <img src="https://www.google.com/imgres?q=img&imgurl=https%3A%2F%2Fusatodayhss.com%2Fwp-content%2Fuploads%2Fsites%2F96%2F2022%2F08%2F11268798.jpeg%3Fw%3D1000%26h%3D600%26crop%3D1&imgrefurl=https%3A%2F%2Fusatodayhss.com%2F2023%2Fflorida-powerhouse-img-academy-sold-for-1-25-billion&docid=VvZ58kTgRXQvkM&tbnid=FW0vOD7ja7FuBM&vet=12ahUKEwjs0KiXgJmHAxUGbvEDHcBiBG8QM3oECEwQAA..i&w=1000&h=600&hcb=2&ved=2ahUKEwjs0KiXgJmHAxUGbvEDHcBiBG8QM3oECEwQAA" alt="">
+          <div class="info">
+              <span>title</span>
+            <span>price</span>
+        </div>
+        <div class="btns">
+            <button class="update">Update</button>
+            <button class="delete">Delete</button>
+        </div>
+    </div>
+</div>  
+
+<div>${item.category}</div> 
+            <div class="btns"> 
+                <button onclick="updateService('${item.id}')" class="update">Update</button> 
+                <button onclick="deleteService('${item.id}')" class="delete">Delete</button> 
+            </div> 
+        </div>
+
+
+
+
+
+
+
+
+        <div class="modal"> 
+            <div class="modal-container"> 
+                <input type="text" id="title"> 
+                <input type="text" id="category"> 
+                <input type="number" id="price"> 
+                <input type="url" id="image"> 
+                <div class="btns">  
+                    <button id="submit">Submit</button> 
+                    <button id="close">Close</button> 
+                </div> 
+            </div> 
+        </div>
+    <script src="index.js"></script>
+</body>
+</html>

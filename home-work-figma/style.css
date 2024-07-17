@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Unbounded:wght@200..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #292929;
+
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.header{
+ height: 55px;
+ margin-top: 20px;
+}
+.block-img{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    gap: 10px;
+}
+.block-img-tvo{
+    width: 66px;
+    height: 30px;
+    position: absolute;
+    top: 32px;
+    left: 139px;
+}
+.block-menu ul{
+    display: flex;
+position: absolute;
+width: 616px;
+height: 20px;
+left: 330px;
+top: 23px;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+color: #fff;
+list-style: none;
+gap:40px ;
+font-family: Unbounded;
+font-weight: 400;
+font-size: 16px;
+cursor: pointer;
+}
+.block-menu li:hover{
+    transform: scale(1.1);
+
+}
+.block-btn button{
+    border-radius: 40px;
+    background: #292929;
+    border: none;
+    margin-left:880px;
+    margin-top: 6px;
+    position: absolute;
+    padding-top: 10px;
+}
+.block-btn-svz button{
+    width: 170px;
+    height:45px;
+    background-color: #D0FC1B;
+    color:black;
+    font-size: 16px;
+    font-family: Unbounded;
+    font-weight: 400;
+    margin-left: 960px;
+    margin-top: 6px;
+    padding-bottom:10px;
+}
+.maine-text h1 {
+    width: 620px;
+    height: 101px;
+    font-family: Unbounded;
+    font-weight: 800;
+    font-size: 66px;
+    background: linear-gradient(90deg, #D4FF00 0%, #27F7F8 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.maine-fff p{
+    width: 589px;
+    height: 86px;
+    font-family: Unbounded;
+    font-weight: 300;
+    font-size: 36px;
+    position: absolute;
+    top: 170px;
+    color: #fff;
+}
+.blockin{
+        position: absolute;
+        top:330px;
+        border-radius: 30px;
+        color: #fff;
+        display: flex;
+        gap: 10px;
+}
+.a{
+    width: 270px;
+    height: 32px;
+    border: 1px solid rgb(0, 255, 0);
+    border-radius: 30px;
+    padding-top: 13px;
+    padding-left: 40px;
+    
+}
+.b{
+    width: 180px;
+    height: 32px;
+    border: 1px solid rgb(0, 255, 0);
+    border-radius: 30px;
+    padding-top: 13px;
+    padding-left: 40px;
+}
+.blockin-tvo{
+    position: absolute;
+    top:390px;
+    border-radius: 30px;
+    color: #fff;
+    display: flex;
+    gap: 10px;
+}
+.c{
+    width: 200px;
+    height: 32px;
+    border: 1px solid rgb(0, 255, 0);
+    border-radius: 30px;
+    padding-top: 13px;
+    padding-left: 40px;
+}
+.d{
+    width: 138px;
+    height: 32px;
+    border: 1px solid rgb(0, 255, 0);
+    border-radius: 30px;
+    padding-top: 13px;
+    padding-left: 50px;
+}
+.maine-btn button{
+    width: 347px;
+    height: 64px;
+    border-radius: 30px;
+    background-color: #D0FC1B;
+    color: black;
+    font-family: Unbounded;
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    margin-top:250px;
+}
+.grupe-img img{
+    width: 439px;
+    height: 396px;
+    margin-left:670px;
+    position: absolute;
+    top: 157px;
+}
+.maine-images img{
+    width: 57px;
+    height: 57px;
+    margin-left:630px;
+    position: absolute;
+    bottom: 450px;
+}
+.maine-imaging img {
+    width: 37px;
+    height: 37px;
+    margin-left:1065px;
+    position: absolute;
+    bottom: 100px;
+}
+.container{
+    margin-bottom:70px;
+}
+.block-img-company{
+    margin-bottom: 70px;
+}
+.shah{
+    width: 444px;
+    height: 58px;
+    color: #fff;
+    font-family: Unbounded;
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+.maine-grup{
+display: flex;
+margin-bottom: 25px;
+
+}
+.grup-block1{
+    width: 320px;
+    height: 300px;
+    color: black;
+    background-color:#DEFC1E;
+    border-radius: 32px;
+    margin-top: 10px;
+}
+.grup-block1 h1{
+    width: 243px;
+    height: 76px;
+    font-family: Unbounded;
+    font-weight: 600;
+    font-size: 32px;
+    color: #3D3A3A;
+    margin-left: 40px;
+}
+.grup-block1 p{
+    width: 300px;
+    height: 169px;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+.grup-block2{
+    width: 500px;
+    height: 300px;
+    color: #fff;
+    background: #292929;
+    border: 1px solid green;
+    border-radius: 32px;
+    margin-left: 350px;
+    position: absolute;
+    bottom: -498px;
+}
+
+.grup-block2 h2{
+    width: 280px;
+    height: 76px;
+    font-family: Unbounded;
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 30px;
+}
+.grup-block2 p{
+    width: 308px;
+    height: 187px;
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 12px;
+    color: 
+    #FFFFFF;
+    margin-left: 10px;
+}
+
+.grup-block2 img{
+    width: 160px;
+    height: 140px;
+    margin-left: 277px;
+    position: absolute;
+    top: 115px;
+}
+.grup-block3{
+    width: 320px;
+    height: 300px;
+    color: black;
+    background-color:greenyellow;
+    border-radius: 32px;
+    border-radius: 32px;
+
+background: linear-gradient(109.22deg, rgb(212, 255, 0) -57.915%,rgb(39, 247, 248) 69.24%),rgb(222, 252, 30);
+margin-left: 530px;
+position: absolute;
+bottom: -2px;
+}
+.grup-block3 h3{
+    width: 158px;
+    height: 76px;
+    font-family: Unbounded;
+    font-weight: 600;
+    color: #3D3A3A;
+    font-size: 32px;
+    margin-left: 30px;
+
+}
+.grup-block3 p{
+    width: 320px;
+    height: 169px;
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 16px;
+    color: #3D3A3A  ;
+}
+.tvo-block{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+.blockcheyn{
+    width: 49%;
+    height: 356px;
+    border-radius: 32px;
+    background-color:rgb(222, 252, 30);
+}
+.to-blockcheyn{
+    width: 49%;
+    height: 356px;
+    border-radius: 32px;
+    background-color: #292929;
+    border: 1px solid  #B1FE33;
+    border-bottom: none;
+}
+.blockcheyn h1{
+    width: 315px;
+    height: 76px;
+    font-family: Unbounded;
+    font-size: 32px;
+    color: #3D3A3A;
+    margin-left: 35px;
+}
+.blockcheyn p{
+    width: 317px;
+    height: 169px;
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 16px;
+    color: #3D3A3A;
+    margin-left: 35px;
+}
+.blockcheyn img{
+    width: 180px;
+    height: 200px;
+    margin-left: 350px;
+    position: absolute;
+    top: 1280px;
+}
+.to-blockcheyn h3{
+    width: 205px;
+    height: 38px;
+    font-family: Unbounded;
+    font-weight: 600;
+    margin-left: 35px;
+    color: #fff;
+    font-size: 32px;
+}
+.to-blockcheyn p{
+    width: 308px;
+    height: 187px;
+    font-family: Mulish;
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-left: 35px;
+}
+.to-blockcheyn h4{
+    width: 272px;
+    height: 24px;
+    font-family: Unbounded;
+    font-weight: 400;
+    font-size: 18px;
+    color: #D4FF00;
+    margin-left: 35px;
+    position: absolute;
+    top: 1450px ;
+}
+.to-blockcheyn img{
+    width: 200px;
+    height: 220px;
+    margin-left: 350px;
+    position: absolute;
+    top: 1280px ;
+}
+.mibutton button{
+width: 300px;
+height: 64px;
+border-radius: 30px;
+border: 3px solid #D0FC1B;
+background-color: #292929;
+color: #fff;
+font-weight: 400;
+font-size: 20px;
+font-family: Unbounded;
+margin-left: 440px;
+margin-bottom: 90px;
+}
+.align-text{
+    width: 492px;
+    height: 58px;
+    font-family: Unbounded;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 60px;
+}
